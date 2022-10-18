@@ -33,11 +33,11 @@ class MyApp extends StatelessWidget {
       title: 'Fake Instagram',
       theme: ThemeData.dark()
           .copyWith(scaffoldBackgroundColor: mobileBackgroundColor),
-      home: const ResponsiveLayout(
-        mobileScreenLayout: mobileScreenLayout(),
-        webScreenLayout: webScreenLayout(),
-      ),
-      // home: LoginScreen(),
+      // home: const ResponsiveLayout(
+      //   mobileScreenLayout: mobileScreenLayout(),
+      //   webScreenLayout: webScreenLayout(),
+      // ),
+      home: LoginScreen(),
     );
   }
 }

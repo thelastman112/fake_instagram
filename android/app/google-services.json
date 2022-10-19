@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "378305831494",
-    "project_id": "fake-instagram-702b1",
-    "storage_bucket": "fake-instagram-702b1.appspot.com"
+    "project_number": "78996350203",
+    "project_id": "fake-instagram-23862",
+    "storage_bucket": "fake-instagram-23862.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378305831494:android:16474f1a820c617416e047",
+        "mobilesdk_app_id": "1:78996350203:android:86027b3be3c1db60cc7c5e",
         "android_client_info": {
           "package_name": "com.example.instagram"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378305831494-312nv75v7terj7thepind5qd76mvm4k6.apps.googleusercontent.com",
+          "client_id": "78996350203-vcv51atoa6vlm43759j91rr4o9ppi6hi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBatWw7SbzmwF4VEgRLOXFon3hgGJ1fr_Y"
+          "current_key": "AIzaSyD6PeOyMnqTaj3zI1qLuP1dpwmbkvmDQCo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "378305831494-312nv75v7terj7thepind5qd76mvm4k6.apps.googleusercontent.com",
+              "client_id": "78996350203-vcv51atoa6vlm43759j91rr4o9ppi6hi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

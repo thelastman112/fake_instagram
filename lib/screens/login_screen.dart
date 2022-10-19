@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:instagram/resources/auth_methods.dart';
 import 'package:instagram/utils/colors.dart';
 import 'package:instagram/widgets/text_field_input.dart';
 
@@ -19,6 +20,13 @@ class _LoginScreenState extends State<LoginScreen> {
     super.dispose();
     _emailController.dispose();
     _passwordController.dispose();
+  }
+
+  void loginUser() async {
+    String res = await AuthMethods().loginUser(
+      email: _emailController.text,
+      password: _passwordController.text,
+    );
   }
 
   @override
@@ -60,6 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             //login button
             InkWell(
+              onTap: loginUser,
               child: Container(
                 child: const Text('Log In'),
                 width: double.infinity,

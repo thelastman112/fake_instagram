@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:instagram/utils/colors.dart';
+import 'package:instagram/widgets/post_cart.dart';
 
 class FeedScreen extends StatelessWidget {
   const FeedScreen({super.key});
@@ -25,6 +26,7 @@ class FeedScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: const PostCard(),
     );
   }
 }

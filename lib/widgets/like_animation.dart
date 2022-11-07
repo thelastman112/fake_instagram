@@ -40,7 +40,7 @@ class _LikeAnimationState extends State<LikeAnimation>
     super.didUpdateWidget(oldWidget);
 
     if (widget.isAnimating != oldWidget.isAnimating) {
-      startAnimation;
+      startAnimation();
     }
   }
 

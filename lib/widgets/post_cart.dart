@@ -164,7 +164,7 @@ class _PostCardState extends State<PostCard> {
                     },
                     child: const Icon(
                       Icons.favorite,
-                      color: Colors.white,
+                      color: Colors.red,
                       size: 120,
                     ),
                   ),
